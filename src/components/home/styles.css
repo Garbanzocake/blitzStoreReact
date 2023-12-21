@@ -1,0 +1,27 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden;
+}
+
+.imgBanner{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../../assets/Makeupgirl.png'); /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* This creates the parallax effect */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+}
+
+.section {
+    height: 70vh;
+    background-color: black; /* Adjust background color as needed */
+  }
